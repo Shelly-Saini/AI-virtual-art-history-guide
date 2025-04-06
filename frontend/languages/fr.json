@@ -1,0 +1,61 @@
+{
+    "appTitle": "Historien d'Art IA",
+    "welcomeMessage": "Bonjour ! Je suis votre IA d'Histoire de l'Art. Comment puis-je vous aider aujourd'hui ?",
+    "inputPlaceholder": "Demandez sur l'histoire de l'art...",
+    "todayMasterpiece": "Chef-d'Œuvre du Jour",
+    "viewDetails": "Voir les Détails",
+    "quickAccess": "Accès Rapide",
+    "artMovements": "Mouvements Artistiques",
+    "famousArtists": "Artistes Célèbres",
+    "artTechniques": "Techniques Artistiques",
+    "artPeriods": "Périodes Artistiques",
+    "chatHeader": "Dialogue sur l'Histoire de l'Art",
+    "newChat": "Nouvelle Conversation",
+    "sendButton": "Envoyer",
+    "voiceButton": "Entrée Vocale",
+    "suggestionsButton": "Obtenir des Suggestions",
+    "typingIndicator": "L'Historien d'Art recherche votre question...",
+    "feedbackPrompt": "Cette information était-elle utile ?",
+    "yesButton": "Oui",
+    "noButton": "Non",
+    "feedbackPlaceholder": "Aidez-nous à améliorer en partageant vos commentaires...",
+    "submitFeedback": "Soumettre les Commentaires",
+    "cancel": "Annuler",
+    "helpTitle": "Guide de l'Historien d'Art IA",
+    "helpSections": {
+      "howToChat": {
+        "title": "Comment Discuter",
+        "content": "Posez des questions sur n'importe quelle période artistique, artiste ou œuvre d'art. Exemples :",
+        "examples": [
+          "Parlez-moi de l'art de la Renaissance",
+          "Qui a peint La Nuit Étoilée ?",
+          "Expliquez la différence entre Impressionnisme et Expressionnisme"
+        ]
+      },
+      "voiceCommands": {
+        "title": "Commandes Vocales",
+        "content": "Cliquez sur le bouton du microphone pour poser des questions par voix."
+      },
+      "interfaceOptions": {
+        "title": "Options d'Interface",
+        "content": "Changez le thème, l'ambiance et la langue en utilisant les contrôles dans l'en-tête."
+      }
+    },
+    "errorMessages": {
+      "general": "Je m'excuse sincèrement pour ce désagrément. Je ne peux actuellement pas traiter votre demande. Veuillez réessayer plus tard ou reformuler votre question.",
+      "imageUpload": "L'image téléchargée ne semble pas être une œuvre d'art reconnue. Veuillez fournir plus de détails ou essayer une autre image.",
+      "voiceRecognition": "Désolé, je n'ai pas pu comprendre votre entrée vocale. Veuillez réessayer."
+    },
+    "moodOptions": {
+      "serene": "Serein",
+      "scholarly": "Savant",
+      "vibrant": "Énergique",
+      "classic": "Classique"
+    },
+    "languageOptions": {
+      "en": "Anglais",
+      "hi": "Hindi",
+      "es": "Espagnol",
+      "fr": "Français"
+    }
+  }

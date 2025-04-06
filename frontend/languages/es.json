@@ -1,0 +1,61 @@
+{
+    "appTitle": "Historiador de Arte AI",
+    "welcomeMessage": "¡Saludos! Soy tu AI de Historia del Arte. ¿Cómo puedo ayudarte hoy?",
+    "inputPlaceholder": "Pregunte sobre historia del arte...",
+    "todayMasterpiece": "Obra Maestra del Día",
+    "viewDetails": "Ver Detalles",
+    "quickAccess": "Acceso Rápido",
+    "artMovements": "Movimientos Artísticos",
+    "famousArtists": "Artistas Famosos",
+    "artTechniques": "Técnicas Artísticas",
+    "artPeriods": "Períodos Artísticos",
+    "chatHeader": "Diálogo de Historia del Arte",
+    "newChat": "Nuevo Chat",
+    "sendButton": "Enviar",
+    "voiceButton": "Entrada de Voz",
+    "suggestionsButton": "Obtener Sugerencias",
+    "typingIndicator": "El Historiador de Arte está investigando tu consulta...",
+    "feedbackPrompt": "¿Fue útil esta información?",
+    "yesButton": "Sí",
+    "noButton": "No",
+    "feedbackPlaceholder": "Por favor ayúdanos a mejorar compartiendo tus comentarios...",
+    "submitFeedback": "Enviar Comentarios",
+    "cancel": "Cancelar",
+    "helpTitle": "Guía del Historiador de Arte AI",
+    "helpSections": {
+      "howToChat": {
+        "title": "Cómo Chatear",
+        "content": "Haz preguntas sobre cualquier período artístico, artista u obra de arte. Ejemplos:",
+        "examples": [
+          "Háblame sobre el arte renacentista",
+          "¿Quién pintó La Noche Estrellada?",
+          "Explica la diferencia entre Impresionismo y Expresionismo"
+        ]
+      },
+      "voiceCommands": {
+        "title": "Comandos de Voz",
+        "content": "Haz clic en el botón del micrófono para hacer preguntas por voz."
+      },
+      "interfaceOptions": {
+        "title": "Opciones de Interfaz",
+        "content": "Cambia el tema, estado de ánimo e idioma usando los controles en el encabezado."
+      }
+    },
+    "errorMessages": {
+      "general": "Mis disculpas por el inconveniente. Actualmente no puedo procesar su solicitud. Por favor, inténtelo de nuevo más tarde o reformule su pregunta.",
+      "imageUpload": "La imagen subida no parece ser una obra de arte reconocida. Por favor proporcione más detalles o pruebe con otra imagen.",
+      "voiceRecognition": "Lo siento, no pude entender tu entrada de voz. Por favor inténtalo de nuevo."
+    },
+    "moodOptions": {
+      "serene": "Sereno",
+      "scholarly": "Erudito",
+      "vibrant": "Vibrante",
+      "classic": "Clásico"
+    },
+    "languageOptions": {
+      "en": "Inglés",
+      "hi": "Hindi",
+      "es": "Español",
+      "fr": "Francés"
+    }
+  }

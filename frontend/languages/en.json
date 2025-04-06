@@ -1,0 +1,61 @@
+{
+    "appTitle": "Art Historian AI",
+    "welcomeMessage": "Greetings! I am your Art Historian AI. How may I assist you with art history today?",
+    "inputPlaceholder": "Ask about art history...",
+    "todayMasterpiece": "Today's Masterpiece",
+    "viewDetails": "View Details",
+    "quickAccess": "Quick Access",
+    "artMovements": "Art Movements",
+    "famousArtists": "Famous Artists",
+    "artTechniques": "Art Techniques",
+    "artPeriods": "Art Periods",
+    "chatHeader": "Art History Dialogue",
+    "newChat": "New Chat",
+    "sendButton": "Send",
+    "voiceButton": "Voice Input",
+    "suggestionsButton": "Get Suggestions",
+    "typingIndicator": "Art Historian is researching your query...",
+    "feedbackPrompt": "Was this information helpful?",
+    "yesButton": "Yes",
+    "noButton": "No",
+    "feedbackPlaceholder": "Please help us improve by sharing your feedback...",
+    "submitFeedback": "Submit Feedback",
+    "cancel": "Cancel",
+    "helpTitle": "Art Historian AI Guide",
+    "helpSections": {
+      "howToChat": {
+        "title": "How to Chat",
+        "content": "Ask questions about any art period, artist, or artwork. Examples:",
+        "examples": [
+          "Tell me about Renaissance art",
+          "Who painted The Starry Night?",
+          "Explain the difference between Impressionism and Expressionism"
+        ]
+      },
+      "voiceCommands": {
+        "title": "Voice Commands",
+        "content": "Click the microphone button to ask questions by voice."
+      },
+      "interfaceOptions": {
+        "title": "Interface Options",
+        "content": "Change the theme, mood, and language using the controls in the header."
+      }
+    },
+    "errorMessages": {
+      "general": "I sincerely apologize for the inconvenience. I'm currently unable to process your request. Please try again later or rephrase your question.",
+      "imageUpload": "The uploaded image does not appear to be a recognized artwork. Please provide more details or try another image.",
+      "voiceRecognition": "Sorry, I couldn't understand your voice input. Please try again."
+    },
+    "moodOptions": {
+      "serene": "Serene",
+      "scholarly": "Scholarly",
+      "vibrant": "Vibrant",
+      "classic": "Classic"
+    },
+    "languageOptions": {
+      "en": "English",
+      "hi": "Hindi",
+      "es": "Spanish",
+      "fr": "French"
+    }
+  }

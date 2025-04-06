@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art History Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-left">
+                <h1>Art History Guide</h1>
+                <div class="mood-selector">
+                    <span>Mood:</span>
+                    <select id="mood-select">
+                        <option value="serene">Serene</option>
+                        <option value="scholarly">Scholarly</option>
+                        <option value="vibrant">Vibrant</option>
+                        <option value="classic">Classic</option>
+                    </select>
+                </div>
+            </div>
+            <div class="header-right">
+                <button id="new-chat-btn" class="new-chat-btn" title="New Chat">
+                    <i class="fas fa-plus"></i> New Chat
+                </button>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <div class="daily-highlight">
+            <div class="highlight-content">
+                <h3>Today's Masterpiece</h3>
+                <div class="highlight-artwork">
+                    <img id="daily-artwork" src="" alt="Daily Artwork">
+                    <div class="highlight-details">
+                        <h4 id="daily-title"></h4>
+                        <p id="daily-artist"></p>
+                        <p id="daily-period"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-history" id="chat-history">
+                <!-- Messages will appear here -->
+            </div>
+            
+            <div class="input-area">
+                <div class="input-options">
+                    <button id="voice-btn" class="voice-btn" title="Voice Input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                </div>
+                <input type="text" id="user-input" placeholder="Ask about art history..." autocomplete="off">
+                <button id="send-btn" class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="typing-indicator" id="typing-indicator">
+                <div class="typing-dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <span>Art Historian is typing...</span>
+            </div>
+        </div>
+
+        <div class="feedback-container">
+            <div class="feedback-prompt" id="feedback-prompt">
+                <span>Was this response helpful?</span>
+                <button class="feedback-btn yes-btn">Yes</button>
+                <button class="feedback-btn no-btn">No</button>
+            </div>
+            <div class="feedback-form" id="feedback-form" style="display: none;">
+                <textarea id="feedback-text" placeholder="Please share your feedback..."></textarea>
+                <button id="submit-feedback" class="submit-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

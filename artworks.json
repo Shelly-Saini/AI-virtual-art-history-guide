@@ -1,0 +1,124 @@
+{
+    "artworks": [
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "title": "Mona Lisa",
+        "artist": "Leonardo da Vinci",
+        "period": "High Renaissance, 1503–1519",
+        "descriptions": {
+          "en": "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as 'the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world'.",
+          "hi": "मोना लिसा इतालवी कलाकार लियोनार्डो दा विंची द्वारा बनाई गई एक आधी लंबाई की चित्रकला है। इटालियन पुनर्जागरण की एक आदर्श कृति मानी जाने वाली, इसे 'दुनिया में सबसे प्रसिद्ध, सबसे अधिक देखी जाने वाली, सबसे अधिक लिखी जाने वाली, सबसे अधिक गाई जाने वाली और सबसे अधिक पैरोडी की जाने वाली कला कृति' के रूप में वर्णित किया गया है।",
+          "es": "La Mona Lisa es un retrato de medio cuerpo pintado por el artista italiano Leonardo da Vinci. Considerada una obra maestra arquetípica del Renacimiento italiano, ha sido descrita como 'la obra de arte más conocida, más visitada, más escrita, más cantada y más parodiada del mundo'.",
+          "fr": "La Joconde est un portrait à mi-corps peint par l'artiste italien Léonard de Vinci. Considéré comme un chef-d'œuvre archétypal de la Renaissance italienne, il a été décrit comme 'l'œuvre d'art la plus connue, la plus visitée, la plus écrite, la plus chantée et la plus parodiée au monde'."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Starry_Night.jpg/1280px-The_Starry_Night.jpg",
+        "title": "The Starry Night",
+        "artist": "Vincent van Gogh",
+        "period": "Post-Impressionism, 1889",
+        "descriptions": {
+          "en": "The Starry Night is an oil-on-canvas painting by Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an idealized village.",
+          "hi": "द स्टारी नाइट डच पोस्ट-इंप्रेशनिस्ट पेंटर विंसेंट वैन गॉग द्वारा बनाई गई एक तेल-ऑन-कैनवस पेंटिंग है। जून 1889 में चित्रित, यह सूर्योदय से ठीक पहले, सेंट-रेमी-डी-प्रोवेंस में उसके अस्पताल के कमरे की पूर्व की ओर वाली खिड़की से दृश्य को दर्शाता है, जिसमें एक आदर्श गाँव को जोड़ा गया है।",
+          "es": "La Noche Estrellada es una pintura al óleo sobre lienzo del pintor postimpresionista holandés Vincent van Gogh. Pintada en junio de 1889, representa la vista desde la ventana orientada al este de su habitación de asilo en Saint-Rémy-de-Provence, justo antes del amanecer, con la adición de un pueblo idealizado.",
+          "fr": "La Nuit étoilée est une peinture à l'huile sur toile du peintre postimpressionniste néerlandais Vincent van Gogh. Peinte en juin 1889, elle représente la vue depuis la fenêtre orientée à l'est de sa chambre d'asile à Saint-Rémy-de-Provence, juste avant le lever du soleil, avec l'ajout d'un village idéalisé."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg",
+        "title": "The Great Wave off Kanagawa",
+        "artist": "Hokusai",
+        "period": "Ukiyo-e, 1829–1833",
+        "descriptions": {
+          "en": "The Great Wave off Kanagawa is a woodblock print by Japanese ukiyo-e artist Hokusai. It was published sometime between 1829 and 1833 in the late Edo period as the first print in Hokusai's series Thirty-six Views of Mount Fuji.",
+          "hi": "द ग्रेट वेव ऑफ कानागावा जापानी उकियो-ए कलाकार होकुसाई द्वारा बनाई गई एक लकड़ी की ब्लॉक प्रिंट है। यह एदो काल के अंत में 1829 और 1833 के बीच किसी समय होकुसाई की श्रृंखला थर्टी-सिक्स व्यूज़ ऑफ माउंट फ़ूजी में पहली प्रिंट के रूप में प्रकाशित हुई थी।",
+          "es": "La Gran Ola de Kanagawa es una impresión xilográfica del artista japonés de ukiyo-e Hokusai. Fue publicada en algún momento entre 1829 y 1833 a finales del período Edo como la primera impresión de la serie de Hokusai Treinta y seis vistas del Monte Fuji.",
+          "fr": "La Grande Vague de Kanagawa est une estampe japonaise de l'artiste ukiyo-e Hokusai. Elle a été publiée entre 1829 et 1833 à la fin de la période Edo en tant que première estampe de la série Trente-six vues du mont Fuji de Hokusai."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Da-Vinci_Vitruve_Luc_Viatour.jpg/800px-Da-Vinci_Vitruve_Luc_Viatour.jpg",
+        "title": "Vitruvian Man",
+        "artist": "Leonardo da Vinci",
+        "period": "Renaissance, c. 1490",
+        "descriptions": {
+          "en": "The Vitruvian Man is a drawing by Leonardo da Vinci around 1490. It is accompanied by notes based on the work of the Roman architect Vitruvius. The drawing, which is in pen and ink on paper, depicts a man in two superimposed positions with his arms and legs apart and inscribed in a circle and square.",
+          "hi": "विट्रुवियन मैन लियोनार्डो दा विंची द्वारा 1490 के आसपास बनाई गई एक ड्राइंग है। यह रोमन वास्तुकार विट्रुवियस के काम पर आधारित नोट्स के साथ है। कागज पर कलम और स्याही से बनी यह ड्राइंग एक आदमी को दो सुपरइम्पोज़्ड पोजीशन में दिखाती है, जिसकी बाहें और पैर अलग-अलग हैं और एक वृत्त और वर्ग में अंकित है।",
+          "es": "El Hombre de Vitruvio es un dibujo de Leonardo da Vinci realizado alrededor de 1490. Va acompañado de notas basadas en la obra del arquitecto romano Vitruvio. El dibujo, que está realizado a pluma y tinta sobre papel, representa a un hombre en dos posiciones superpuestas con los brazos y las piernas separados e inscritos en un círculo y un cuadrado.",
+          "fr": "L'Homme de Vitruve est un dessin de Léonard de Vinci réalisé vers 1490. Il est accompagné de notes basées sur l'œuvre de l'architecte romain Vitruve. Le dessin, qui est à la plume et à l'encre sur papier, représente un homme dans deux positions superposées avec les bras et les jambes écartés et inscrits dans un cercle et un carré."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_primera_comuni%C3%B3n.jpg/800px-La_primera_comuni%C3%B3n.jpg",
+        "title": "The First Communion",
+        "artist": "Pablo Picasso",
+        "period": "Modern art, 1896",
+        "descriptions": {
+          "en": "The First Communion is an oil painting by Pablo Picasso, completed in 1896 when he was just 15 years old. It depicts his sister Lola's first communion and shows Picasso's early academic style before he developed his more famous Cubist approach.",
+          "hi": "द फर्स्ट कम्यूनियन पाब्लो पिकासो द्वारा बनाई गई एक तेल चित्रकला है, जिसे 1896 में पूरा किया गया था जब वह सिर्फ 15 साल के थे। यह उनकी बहन लोला की पहली कम्यूनियन को दर्शाता है और पिकासो के उस प्रारंभिक शैक्षणिक शैली को दिखाता है जिसे उन्होंने अपने अधिक प्रसिद्ध क्यूबिस्ट दृष्टिकोण को विकसित करने से पहले अपनाया था।",
+          "es": "La Primera Comunión es una pintura al óleo de Pablo Picasso, completada en 1896 cuando solo tenía 15 años. Representa la primera comunión de su hermana Lola y muestra el estilo académico temprano de Picasso antes de que desarrollara su enfoque cubista más famoso.",
+          "fr": "La Première Communion est une peinture à l'huile de Pablo Picasso, achevée en 1896 alors qu'il n'avait que 15 ans. Elle représente la première communion de sa sœur Lola et montre le style académique précoce de Picasso avant qu'il ne développe son approche cubiste plus célèbre."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/800px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+        "title": "The Fighting Temeraire",
+        "artist": "J.M.W. Turner",
+        "period": "Romanticism, 1839",
+        "descriptions": {
+          "en": "The Fighting Temeraire is an oil painting by J.M.W. Turner, painted in 1839. It depicts the 98-gun HMS Temeraire being towed by a paddle-wheel steam tug to be broken up for scrap. The painting is a tribute to the ship's distinguished service in the Battle of Trafalgar.",
+          "hi": "द फाइटिंग टेमेरायर J.M.W. टर्नर द्वारा 1839 में बनाई गई एक तेल चित्रकला है। यह 98-बंदूक वाले HMS टेमेरायर को एक पैडल-व्हील स्टीम टग द्वारा स्क्रैप के लिए तोड़े जाने के लिए खींचे जाते हुए दिखाता है। यह पेंटिंग ट्राफलगर की लड़ाई में जहाज की विशिष्ट सेवा को श्रद्धांजलि है।",
+          "es": "El Temeraire es una pintura al óleo de J.M.W. Turner, pintada en 1839. Representa al HMS Temeraire de 98 cañones siendo remolcado por un remolcador de vapor de ruedas de paletas para ser desguazado. La pintura es un homenaje al distinguido servicio del barco en la Batalla de Trafalgar.",
+          "fr": "Le Téméraire est une peinture à l'huile de J.M.W. Turner, peinte en 1839. Elle représente le HMS Téméraire à 98 canons remorqué par un remorqueur à vapeur à roues à aubes pour être démoli. La peinture est un hommage au service distingué du navire lors de la bataille de Trafalgar."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Piet%C3%A0_Vatican_Michelangelo.jpg/800px-Piet%C3%A0_Vatican_Michelangelo.jpg",
+        "title": "Pietà",
+        "artist": "Michelangelo",
+        "period": "Renaissance, 1498–1499",
+        "descriptions": {
+          "en": "The Pietà is a work of Renaissance sculpture by Michelangelo Buonarroti, housed in St. Peter's Basilica, Vatican City. It is the first of a number of works of the same theme by the artist. The statue was commissioned for the French Cardinal Jean de Bilhères, who was a representative in Rome.",
+          "hi": "पिएटा माइकलएंजेलो बुओनारोती द्वारा पुनर्जागरण मूर्तिकला का एक काम है, जो वेटिकन सिटी के सेंट पीटर बेसिलिका में स्थित है। यह कलाकार द्वारा एक ही विषय पर बनाई गई कई कृतियों में से पहली है। यह मूर्ति फ्रांसीसी कार्डिनल जीन डी बिलहरेस के लिए कमीशन की गई थी, जो रोम में एक प्रतिनिधि थे।",
+          "es": "La Piedad es una obra escultórica del Renacimiento de Miguel Ángel Buonarroti, ubicada en la Basílica de San Pedro, Ciudad del Vaticano. Es la primera de una serie de obras del mismo tema del artista. La estatua fue encargada por el cardenal francés Jean de Bilhères, quien era representante en Roma.",
+          "fr": "La Pietà est une œuvre de sculpture de la Renaissance de Michel-Ange Buonarroti, conservée dans la basilique Saint-Pierre au Vatican. C'est la première d'une série d'œuvres sur le même thème de l'artiste. La statue a été commandée par le cardinal français Jean de Bilhères, qui était représentant à Rome."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/800px-The_Scream.jpg",
+        "title": "The Scream",
+        "artist": "Edvard Munch",
+        "period": "Expressionism, 1893",
+        "descriptions": {
+          "en": "The Scream is a composition created by Norwegian artist Edvard Munch in 1893. The agonized face in the painting has become one of the most iconic images of art, seen as symbolizing the anxiety of the human condition. Munch created several versions in paint and pastel.",
+          "hi": "द स्क्रीम नॉर्वेजियन कलाकार एडवर्ड मंच द्वारा 1893 में बनाई गई एक रचना है। पेंटिंग में पीड़ित चेहरा कला की सबसे प्रतिष्ठित छवियों में से एक बन गया है, जिसे मानव स्थिति की चिंता का प्रतीक माना जाता है। मंच ने पेंट और पेस्टल में कई संस्करण बनाए।",
+          "es": "El Grito es una composición creada por el artista noruego Edvard Munch en 1893. El rostro angustiado de la pintura se ha convertido en una de las imágenes más icónicas del arte, vista como un símbolo de la ansiedad de la condición humana. Munch creó varias versiones en pintura y pastel.",
+          "fr": "Le Cri est une composition créée par l'artiste norvégien Edvard Munch en 1893. Le visage angoissé du tableau est devenu l'une des images les plus emblématiques de l'art, considéré comme symbolisant l'anxiété de la condition humaine. Munch a créé plusieurs versions en peinture et pastel."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Arles_with_Irises%2C_Vincent_van_Gogh.jpg/800px-View_of_Arles_with_Irises%2C_Vincent_van_Gogh.jpg",
+        "title": "Irises",
+        "artist": "Vincent van Gogh",
+        "period": "Post-Impressionism, 1889",
+        "descriptions": {
+          "en": "Irises is one of several paintings of irises by the Dutch artist Vincent van Gogh. It was painted while he was at the asylum at Saint Paul-de-Mausole in Saint-Rémy-de-Provence, France, in the last year before his death in 1890.",
+          "hi": "आईरिस डच कलाकार विंसेंट वैन गॉग द्वारा आईरिस की कई पेंटिंग्स में से एक है। यह 1890 में उनकी मृत्यु से पहले के अंतिम वर्ष में फ्रांस के सेंट-रेमी-डी-प्रोवेंस में सेंट पॉल-डी-मौसोल के अस्पताल में रहने के दौरान चित्रित किया गया था।",
+          "es": "Lirios es una de las varias pinturas de lirios del artista holandés Vincent van Gogh. Fue pintada mientras estaba en el asilo de Saint Paul-de-Mausole en Saint-Rémy-de-Provence, Francia, en el último año antes de su muerte en 1890.",
+          "fr": "Les Iris est l'une des plusieurs peintures d'iris de l'artiste néerlandais Vincent van Gogh. Elle a été peinte alors qu'il était à l'asile de Saint Paul-de-Mausole à Saint-Rémy-de-Provence, en France, la dernière année avant sa mort en 1890."
+        }
+      },
+      {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-Starry_Night-Google_Art_Project.jpg/800px-Van_Gogh-Starry_Night-_Google_Art_Project.jpg",
+        "title": "Starry Night Over the Rhône",
+        "artist": "Vincent van Gogh",
+        "period": "Post-Impressionism, 1888",
+        "descriptions": {
+          "en": "Starry Night Over the Rhône is one of Vincent van Gogh's paintings of Arles at night. It was painted at a spot on the banks of the Rhône that was only a minute or two's walk from the Yellow House on the Place Lamartine, which van Gogh was renting at the time.",
+          "hi": "स्टारी नाइट ओवर द रोन विंसेंट वैन गॉग की आर्लेस की रात की पेंटिंग्स में से एक है। यह रोन नदी के किनारे एक स्थान पर चित्रित किया गया था जो प्लेस लामार्टिन पर पीले घर से केवल एक या दो मिनट की पैदल दूरी पर था, जिसे वैन गॉग उस समय किराए पर ले रहे थे।",
+          "es": "Noche estrellada sobre el Ródano es una de las pinturas nocturnas de Arles de Vincent van Gogh. Fue pintada en un lugar a orillas del Ródano que estaba a solo uno o dos minutos a pie de la Casa Amarilla en la Place Lamartine, que van Gogh alquilaba en ese momento.",
+          "fr": "Nuit étoilée sur le Rhône est l'une des peintures nocturnes d'Arles de Vincent van Gogh. Elle a été peinte à un endroit sur les rives du Rhône qui n'était qu'à une ou deux minutes à pied de la Maison Jaune sur la Place Lamartine, que van Gogh louait à l'époque."
+        }
+      }
+    ]
+  }
