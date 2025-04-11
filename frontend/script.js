@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 period: 'High Renaissance, 1503–1519'
             },
             {
-                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Starry_Night.jpg/1280px-The_Starry_Night.jpg',
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
                 title: 'The Starry Night',
                 artist: 'Vincent van Gogh',
                 period: 'Post-Impressionism, 1889'
