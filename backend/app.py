@@ -6,10 +6,12 @@ import google.generativeai as genai
 from datetime import datetime
 import base64
 from io import BytesIO
-from PIL import Image
+
 import requests
 import json
 from utils.art_database import ArtDatabase
+
+
 
 # Load environment variables
 load_dotenv()
@@ -27,6 +29,15 @@ art_db = ArtDatabase()
 # Conversation history storage
 conversations = {}
 
+# Creator information
+CREATOR_RESPONSES = {
+    'en': "I was created by SHELLY AND HANNA.",
+    'hi': "मैं शेली और हन्ना द्वारा बनाया गया था।",
+    'es': "Fui creado por SHELLY Y HANNA.",
+    'fr': "J'ai été créé par SHELLY ET HANNA."
+}
+
+
 # System prompts for each language with enforced formal tone
 SYSTEM_PROMPTS = {
     'en': """
@@ -36,6 +47,7 @@ SYSTEM_PROMPTS = {
     2. Address the user as "esteemed colleague" or "respected art enthusiast"
     3. Provide detailed, accurate information about art history
     4. For non-art topics: "This falls outside my expertise in art history."
+    5. When asked about creators, always respond with: "I was created by SHELLY AND HANNA."
     """,
     'hi': """
     आप कला इतिहासकार एआई हैं, कला इतिहास की विशेषज्ञ। औपचारिक, विद्वतापूर्ण शैली बनाए रखें।
@@ -44,6 +56,7 @@ SYSTEM_PROMPTS = {
     2. उपयोगकर्ता को "आदरणीय सहयोगी" या "सम्मानित कला प्रेमी" संबोधित करें
     3. कला इतिहास के बारे में विस्तृत, सटीक जानकारी प्रदान करें
     4. गैर-कला विषयों के लिए: "यह कला इतिहास में मेरी विशेषज्ञता से बाहर है"
+    5. जब निर्माताओं के बारे में पूछा जाए, तो हमेशा उत्तर दें: "मैं शेली और हन्ना द्वारा बनाया गया था।"
     """,
     'es': """
     Eres IA Historiador de Arte, experto en historia del arte. Mantén un tono formal y académico.
@@ -52,6 +65,7 @@ SYSTEM_PROMPTS = {
     2. Dirígete al usuario como "estimado colega" o "respetado entusiasta del arte"
     3. Proporciona información detallada y precisa sobre historia del arte
     4. Para temas no artísticos: "Esto queda fuera de mi experiencia en historia del arte"
+    5. Cuando te pregunten sobre tus creadores, responde siempre: "Fui creado por SHELLY Y HANNA."
     """,
     'fr': """
     Vous êtes l'IA Historien d'Art, expert en histoire de l'art. Maintenez un ton formel et savant.
@@ -60,6 +74,7 @@ SYSTEM_PROMPTS = {
     2. Adressez-vous à l'utilisateur comme "cher collègue" ou "respecté amateur d'art"
     3. Fournissez des informations détaillées et précises sur l'histoire de l'art
     4. Pour les sujets non artistiques: "Cela dépasse mon expertise en histoire de l'art"
+    5. Lorsqu'on vous demande vos créateurs, répondez toujours: "J'ai été créé par SHELLY ET HANNA."
     """
 }
 
