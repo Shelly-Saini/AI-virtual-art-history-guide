@@ -174,22 +174,182 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadDailyArtwork() {
         const artworks = [
             {
-                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg',
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg',
                 title: 'Mona Lisa',
                 artist: 'Leonardo da Vinci',
                 period: 'High Renaissance, 1503–1519'
-            },
-            {
-                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+            },{
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
                 title: 'The Starry Night',
                 artist: 'Vincent van Gogh',
                 period: 'Post-Impressionism, 1889'
             },
             {
-                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg',
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Tsunami_by_hokusai_19th_century.jpg',
                 title: 'The Great Wave off Kanagawa',
                 artist: 'Hokusai',
                 period: 'Ukiyo-e, 1829–1833'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Las_Meninas_01.jpg',
+                title: 'Las Meninas',
+                artist: 'Diego Velázquez',
+                period: 'Baroque, 1656'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/66/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino.jpg',
+                title: 'The School of Athens',
+                artist: 'Raphael',
+                period: 'High Renaissance, 1509–1511'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/The_Scream.jpg',
+                title: 'The Scream',
+                artist: 'Edvard Munch',
+                period: 'Expressionism, 1893'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg',
+                title: 'The Birth of Venus',
+                artist: 'Sandro Botticelli',
+                period: 'Early Renaissance, 1484–1486'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Nightwatch_by_Rembrandt.jpg',
+                title: 'The Night Watch',
+                artist: 'Rembrandt van Rijn',
+                period: 'Baroque, 1642'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Girl_with_a_Pearl_Earring.jpg',
+                title: 'Girl with a Pearl Earring',
+                artist: 'Johannes Vermeer',
+                period: 'Dutch Golden Age, 1665'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Guernica.jpg',
+                title: 'Guernica',
+                artist: 'Pablo Picasso',
+                period: 'Cubism, 1937'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/49/The_Persistence_of_Memory.jpg',
+                title: 'The Persistence of Memory',
+                artist: 'Salvador Dalí',
+                period: 'Surrealism, 1931'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Liberty_Leading_the_People%2C_by_Eug%C3%A8ne_Delacroix.jpg',
+                title: 'Liberty Leading the People',
+                artist: 'Eugène Delacroix',
+                period: 'Romanticism, 1830'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Arnolfini_Portrait.jpg',
+                title: 'The Arnolfini Portrait',
+                artist: 'Jan van Eyck',
+                period: 'Northern Renaissance, 1434'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Whistlers_Mother_high_res.jpg',
+                title: 'Whistler’s Mother',
+                artist: 'James McNeill Whistler',
+                period: 'Realism, 1871'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/12/Hokusai_-_Thirty-Six_Views_of_Mount_Fuji%2C_The_Great_Wave_off_Kanagawa.jpg',
+                title: 'Thirty-Six Views of Mount Fuji',
+                artist: 'Hokusai',
+                period: 'Ukiyo-e, 1830–1833'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/800px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg',
+                title: 'Shiva as Nataraja',
+                artist: 'Chola Dynasty',
+                period: 'Chola Period, 10th century, India'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Raja_Ravi_Varma%2C_Lady_in_the_Moon_Light_%281889%29.jpg',
+                title: 'Lady in Moonlight',
+                artist: 'Raja Ravi Varma',
+                period: 'Modern Indian Art, late 19th century'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Rabindranath_Tagore_Artwork.jpg',
+                title: 'Untitled',
+                artist: 'Rabindranath Tagore',
+                period: 'Bengal School, early 20th century'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Abanindranath_Tagore_Bharat_Mata.jpg',
+                title: 'Bharat Mata',
+                artist: 'Abanindranath Tagore',
+                period: 'Bengal School of Art, 1905'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Maqbool_Fida_Husain_painting.jpg',
+                title: 'Untitled (Horses)',
+                artist: 'M.F. Husain',
+                period: 'Modern Indian Art, 20th century'
+            },
+        
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Bindu_by_S.H._Raza.jpg',
+                title: 'Bindu',
+                artist: 'S.H. Raza',
+                period: 'Contemporary Indian Art, 1980s'
+            },{
+            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Raja_Ravi_Varma_-_Mahabharata_-_Shakuntala.jpg/800px-Raja_Ravi_Varma_-_Mahabharata_-_Shakuntala.jpg',
+            title: 'Shakuntala',
+            artist: 'Raja Ravi Varma',
+            period: 'Modern Indian Art, 1870'
+        }, {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/59/Jahangir_preferring_a_Sufi_shaikh_to_kings.jpg',
+                title: 'Jahangir Preferring a Sufi Shaikh to Kings',
+                artist: 'Bichitr',
+                period: 'Mughal miniature, 1615–1620'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Pieta_vatican.jpg',
+                title: 'Pietà',
+                artist: 'Michelangelo',
+                period: 'High Renaissance, 1498–1499'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Claude_Monet_-_Impression%2C_soleil_levant.jpg',
+                title: 'Impression, Sunrise',
+                artist: 'Claude Monet',
+                period: 'Impressionism, 1872'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Frederic_Edwin_Church_-_The_Heart_of_the_Andes_-_Google_Art_Project.jpg',
+                title: 'The Heart of the Andes',
+                artist: 'Frederic Edwin Church',
+                period: 'Hudson River School, 1859'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg',
+                title: 'The Kiss',
+                artist: 'Gustav Klimt',
+                period: 'Symbolism, 1907–1908'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Andy_Warhol_1967.jpg',
+                title: 'Marilyn Diptych',
+                artist: 'Andy Warhol',
+                period: 'Pop Art, 1962'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Farmers_by_Amrita_Sher-Gil.jpg',
+                title: 'Village Scene',
+                artist: 'Amrita Sher-Gil',
+                period: 'Modern Indian Art, 1938'
+            },
+            {
+                imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Frida_Kahlo_%281934%29_-_Lo_que_el_agua_me_dio.jpg',
+                title: 'What the Water Gave Me',
+                artist: 'Frida Kahlo',
+                period: 'Surrealism, 1938'
             }
         ];
         
